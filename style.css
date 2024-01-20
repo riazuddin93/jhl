@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.hero{
+    background: url('hero2.jpg')no-repeat center/cover;
+    background-position: 10% 45%;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+.hero h1{
+   font-size: 38px;
+}
+.hero nav .nav-right h1{
+    color: yellow;
+    text-transform: uppercase;
+    border: 2px solid yellow;
+    border-radius: 40px;
+    padding: 10px 10px;
+    font-size: 18px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 90px;
+    justify-content: space-between;
+    background: black;
+}
+ul{
+    color: white;
+    display: flex;
+    padding-left: 60px;
+    /* align-items: center; */
+}
+ nav ul li{
+    list-style: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .nav-right{
+    display: flex;
+    align-items: center;
+ }
+ .nav-btns{
+    display: flex;
+    gap: 15px;
+ }
+ .nav-btns button{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    width: 100px;
+    padding: 10px 0;
+    text-transform: capitalize;
+    font-size: 16px;
+ }
+ .nav-btns button:hover{
+    background: #f7b500;
+ }
+
+ .hero .hero-contents{
+    text-transform: capitalize;
+    padding: 150px 90px;
+ }
+ .hero .hero-contents p{
+    padding-top: 35px;
+    padding-bottom:35px;
+ }
+ .hero .hero-contents button{
+    background: #f7b500;
+    color: white;
+    text-transform: uppercase;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: rgba(255, 0, 0, 0);
+    font-weight: 650;
+    padding: 0 5px;
+ }
+ .hero .hero-contents button:hover{
+    cursor: pointer;
+    background: #d89f01;
+ }
+
+ /* cards */
+ .cards{
+   width: 100%;
+   height: 400px;
+   background: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   
+ } 
+ .cards .card{
+   border: 2px solid white;
+   width: 400px;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: black;
+ }
+ .cards .card h1{
+   color: white;
+   text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+ }
+ .cards .card p{
+   color: white;
+   text-transform: uppercase;
+   padding: 10px 0;
+ }
+ .cards .card .cont{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: black;
+   height: 200px;
+   padding: 0 20px;
+
+ }
+ .cards .card .cont button{
+   width: 100px;
+   background: #f7b500;
+   width: 120px;
+   height: 30px;
+   color: white;
+   font-size: 14px;
+   text-transform: uppercase;
+   font-weight: 600;
+ }
+ /* banner */
+ .banner{
+   background: red;
+   width: 100%;
+   height: 600px;
+   display: flex;
+   
+ }
+ .banner .right{
+   width: 50%;
+   height: 600px;
+   background: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .banner .right{
+   color: white;
+ }
+.contents img{
+   width: 42px;
+   
+ }
+ .banner .right .contents .heading {
+ display: flex;
+ text-transform: capitalize;
+  
+ }
+ .banner .right .contents{
+   width: 80%;
+   height: 70%;
+   display: flex;
+   flex-direction: column;
+   background: black;
+
+}
+.banner .right .contents p{
+   line-height: 24px;
+   padding: 20px 0;
+   width: 70%;
+}
+.banner .right .contents h2{
+   padding: 20px 0;
+}
+.banner .left{
+   background: white;
+   width: 50%;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.banner .right .contents button{
+   width: 200px;
+   height: 40px;
+   background: #f7b500;
+   border: 1px solid rgba(255, 0, 0, 0);
+   color: white;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+
+/* .banner .left img{
+   padding: 10% 0%;
+} */
+#left2{
+   background: url('banner2.png') no-repeat center/cover;
+}
